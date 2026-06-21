@@ -1,0 +1,23 @@
+name: bug
+description: 壊れた・変な動きをした
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 何が起きた？
+      description: ざっくりでOK。
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: バージョン
+      placeholder: v0.1.0
+  - type: textarea
+    id: environment
+    attributes:
+      label: 環境
+      description: Windows、CPU、GPUが分かると助かる。
+      placeholder: Windows 11 / Ryzen / Radeon

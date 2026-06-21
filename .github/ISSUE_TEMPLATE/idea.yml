@@ -1,0 +1,11 @@
+name: idea
+description: アイデア・見た目の改善
+title: "idea: "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 何を変えたい？
+    validations:
+      required: true
